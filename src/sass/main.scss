@@ -1,0 +1,105 @@
+/*-------------------- FONTS STYLE ----------------------*/
+
+// font-inter
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../assets/fonts/inter/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../assets/fonts/inter/Inter-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../assets/fonts/inter/Inter-Regular.ttf") format("truetype");
+}
+
+.font-inter-bold{
+  font-family: "Inter-Bold", sans-serif;
+}
+
+.font-inter-medium{
+  font-family: "Inter-Medium", sans-serif;
+}
+
+.font-inter-regular{
+  font-family: "Inter-Regular", sans-serif;
+}
+
+// font-raleway
+@font-face {
+  font-family: "Raleway-Medium.ttf";
+  src: url("../assets/fonts/raleway/Raleway-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../assets/fonts/raleway/Raleway-Regular.ttf") format("truetype");
+}
+
+.font-raleway-medium{
+  font-family: "Raleway-Medium", sans-serif;
+}
+
+.font-releway-regular{
+  font-family: "Raleway-Regular", sans-serif;
+}
+
+// font-lovers
+@font-face {
+  font-family: "LoversQuarrel-Regular";
+  src: url("../assets/fonts/lovers/LoversQuarrel-Regular.ttf") format("truetype");
+}
+
+.font-lovers{
+  font-family: "LoversQuarrel-Regular", sans-serif;
+}
+
+/*----------------------- COLORS STYLE -----------------------*/
+$color-dark: #0B0D17;
+$color-orange: #FF6B00;
+$color-gray: #DADADB;
+$color-black: #1E2130;
+
+/*------------------------ ICONS STYLE ----------------------*/
+
+.icon{
+  width: 20px;
+  height: 20px;
+  background-color: $color-orange;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: 100%;
+  -webkit-mask-size: 100%;
+
+  &.icon-email{
+    mask-image: url("../assets/icons/email.svg");
+    -webkit-mask-image: url("../assets/icons/email.svg");
+  }
+
+  &.icon-phone{
+    mask-image: url("../assets/icons/phone.svg");
+    -webkit-mask-image: url("../assets/icons/phone.svg");
+  }
+
+  &.icon-location{
+    mask-image: url("../assets/icons/location.svg");
+    -webkit-mask-image: url("../assets/icons/location.svg");
+  }
+}
+
+/*------------------------ MAIN STYLES ----------------------------*/
+html{
+  overflow-x: hidden;
+  font-size: 18px;
+
+  body{
+    padding: 0;
+    margin: 0;
+    background-color: $color-dark;
+
+    
+  }
+}
